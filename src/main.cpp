@@ -1,4 +1,8 @@
 #include <Geode/Geode.hpp>
+#ifdef GEODE_IS_ANDROID
+// Desativa funções de teclado exclusivas de Windows no Android
+#endif
+
 #include <Geode/modify/GJBaseGameLayer.hpp>
 #include <Geode/modify/PauseLayer.hpp>
 #include <Geode/modify/PlayLayer.hpp>
